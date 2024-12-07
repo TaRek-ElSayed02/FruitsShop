@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #f7f7f7;
+  padding-bottom: 200px;
+}
+.navbar ul {
+  list-style-type: none;
+  font-family: Arial;
+}
+.navbar ul li {
+  display: inline-block;
+}
+ul li:first-child {
+  margin: 20px 450px 20px 187px;
+}
+ul li:first-child img {
+  width: 45px;
+}
+ul li:first-child span {
+  font-weight: bolder;
+  font-size: 17px;
+  position: relative;
+  top: -15px;
+}
+ul li:first-child span a {
+  text-decoration: none;
+  color: black;
+}
+ul li.ancor a {
+  color: black;
+  font-family: tahoma;
+  margin-right: 50px;
+  text-decoration: none;
+  position: relative;
+  top: -15px;
+}
+ul li.ancor a:hover {
+  cursor: pointer;
+}
+.navbar ul li .sicon {
+  width: 23px;
+  position: relative;
+  top: -7px;
+}
+.navbar ul li .sicon:hover {
+  cursor: pointer;
+}
+/****************** end of styling navbar *********************/
+/* start of second section hello */
+#welsec {
+  background-color: #f7f7f7;
+  position: relative;
+  bottom: 200px;
+  padding-bottom: 30px;
+}
+#welsec table {
+  /* border: 2px solid black; */
+  width: 75%;
+  margin: 110px auto;
+}
+/* this  */
+#welsec table:first-child .welimg img {
+  width: 475px;
+  padding-right: 50px;
+  padding-left: 90px;
+}
+#welsec table:first-child th p.st,
+#welsec table:first-child th p.sec {
+  text-align: left;
+  font-family: tahoma;
+  font-size: 60px;
+  position: relative;
+  top: -15px;
+}
+#welsec table:last-child td p {
+  display: inline-block;
+}
+#welsec table:last-child td p a {
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+  color: white;
+  background-color: #ff6c2e;
+  padding: 15px 32px;
+  margin-right: 13px;
+}
+#welsec table:last-child td p a.org {
+  background-color: black;
+}
+#welsec table:last-child td p a.org:hover {
+  background-color: #ff6c2e;
+}
+#welsec table:last-child td p a.shop:hover {
+  background-color: black;
+}
+#welsec table .msg td p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+#welsec table .msg td {
+  padding-bottom: 45px;
+}
+/*------------------ end of welcome message div ----------------- */
+/* ***************our services-***************** */
+.oserv {
+  position: relative;
+  bottom: 125px;
+}
+.oserv h2,
+p {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 34px;
+}
+.oserv p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.oserv .fruits {
+  margin-right: 25px;
+  margin-top: 65px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 23.5%;
+  height: 335px;
+  display: inline-block;
+}
+.oserv .fruits:hover {
+  border-top: 9px solid #ff6c2e;
+  border-radius: 0;
+}
+.oserv .org {
+  margin-left: 190px;
+}
+.oserv .fruits img {
+  width: 50px;
+  margin-left: 150px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+  /* padding-top: px; */
+}
+.oserv .fruits .tfru {
+  color: #ff6c2e;
+}
+.oserv .fruits .tfru:hover {
+  cursor: pointer;
+}
+.oserv .fruits .descfru {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* border: 2px solid red; */
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 23px;
+}
+.rmore {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 15px 40px;
+  margin: 45px auto;
+}
+.rmore:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+/* -----------end of our services div-------- */
+/* start of fresh fruit section ------------*/
+.oserv #freshfruit {
+  margin-top: 73px;
+}
+/* End of fresh fruit section ------------*/
+/* start of fruits div *****************************************/
+.frshfod table {
+  width: 75%;
+  padding-top: 25px;
+  margin: auto;
+  /* border: 2px solid black; */
+  position: relative;
+  bottom: 85px;
+}
+.frshfod table .orag td .titlefruit {
+  text-align: left;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.frshfod table .orag td .descfruit {
+  margin-top: 23px;
+  width: 88%;
+  font-size: 18px;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.frshfod table .orag td button {
+  color: white;
+  font-size: 17px;
+  background-color: black;
+  width: 147px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+.frshfod table .orag td button:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+.frshfod table .orag .imgfruit img {
+  width: 250px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 45px;
+  right: 60px;
+}
+.frshfod table .orag .imgfruit .grapeses {
+  width: 100px;
+  position: relative;
+  left: 10px;
+}
+/* *************end of fruit fresh section******************** */
+/* start of very teasty fruit section************************* */
+div.tastyfruits {
+  width: 100%;
+  height: 65vh;
+  background-image: url(../images/tasty.png);
+  background-size: cover;
+  position: relative;
+  bottom: 100px;
+  margin-bottom: 100px;
+}
+div.tastyfruits p {
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 900;
+  font-size: 105px;
+  position: relative;
+  top: 35%;
+}
+/* end of very teasty fruit section************************* */
+/* <!-- start this is div above picture --> */
+div.picture {
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+}
+div.picture img {
+  width: 350px;
+}
+div.picture p {
+  font-family: arial;
+  font-size: 30px;
+}
+div.picture :last-child {
+  padding-top: 20px;
+  margin: auto;
+  width: 77%;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/******************* <!-- start this is div above picture --> */
+/* div of contact us --------------************** */
+.contact caption {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-left: 195px;
+  margin-bottom: 30px;
+}
+.contact .us form input {
+  margin-left: 195px;
+  display: block;
+  width: 680px;
+  height: 30px;
+  border: 0;
+  border-bottom: 2px solid gray;
+  margin-bottom: 17px;
+}
+.contact .us form input::placeholder {
+  font-size: 17.5px;
+}
+.contact .us form input[placeholder="Message"] {
+  margin-top: 66px;
+}
+.contact .us form input[value="SEND"] {
+  width: 113px;
+  height: 35px;
+  background-color: #fc5d35;
+  color: white;
+  margin-top: 58px;
+  border: 0;
+}
+.contact .us form input[type="text"]:focus,
+.contact .us form input[type="email"]:focus {
+  outline: 0;
+  font-size: 10px;
+}
+.contact .us form input[value="SEND"]:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.contact .imgus img {
+  width: 215px;
+  position: relative;
+  left: 425px;
+  bottom: 90px;
+}
+/* div of contact us --------------************** */
+/* div of footer end of this  */
+.footpage2 table {
+  margin-top: 110px;
+  margin-left: 186px;
+}
+.footpage2 tr td {
+  /* background-color: red; */
+  width: 142px;
+  height: 350px;
+  padding-right: 150px;
+}
+.footpage2 tr td p {
+  text-align: left;
+  font-size: 19px;
+  position: relative;
+  bottom: 58px;
+}
+.footpage2 tr td .titlep {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.footpage2 tr .last .titlep {
+  position: relative;
+  bottom: 96px;
+}
+.footpage2 tr td img {
+  width: 35px;
+  margin-right: 6px;
+  position: relative;
+  bottom: 85px;
+}
+.footpage2 tr .last {
+  width: 200px;
+}
+.footpage2 tr .last .sub {
+  font-size: 24px;
+  font-family: arial;
+  border: 0;
+}
+.footpage2 tr .last input[type="text"] {
+  width: 225px;
+  height: 30px;
+  border: 1px solid gray;
+  position: relative;
+  bottom: 43px;
+}
+.footpage2 tr .last input[type="button"] {
+  width: 130px;
+  height: 31px;
+  background-color: #fc5d35;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  position: relative;
+  bottom: 30px;
+}
+.footpage2 tr .last input[type="button"]:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+/* <!-- div of footer end of this  --> */
+.copyright {
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 43px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 3px;
+  font-family: arial;
+  font-size: 16px;
+}
